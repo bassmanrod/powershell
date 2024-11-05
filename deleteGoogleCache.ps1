@@ -1,3 +1,5 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Force
+
 # Define the path to the Chrome cache folder
 $chromeCachePath = "$env:LOCALAPPDATA\Google\Chrome\User Data\Default\Cache"
 
